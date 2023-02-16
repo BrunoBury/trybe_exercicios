@@ -1,9 +1,9 @@
-h1, p, ol {
+h1, p, ol, ul {
     text-align: center;
 }
 li:hover{
     background-color: red;
 }
-li: active{
+li:active{
     color: black;
 }
