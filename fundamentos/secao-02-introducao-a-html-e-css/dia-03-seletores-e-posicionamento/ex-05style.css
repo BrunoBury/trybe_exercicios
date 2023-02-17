@@ -1,0 +1,28 @@
+ol {
+    background-color: yellow;
+    }
+    ol li:nth-of-type(even){
+    color:green;
+    }
+    ol li:nth-of-type(odd){
+    text-transform: uppercase;
+    }
+    h1 , h3{
+    color:red;
+    }
+    h1 em, h3 em{
+    font-size: 40px;
+    border: 1px solid black;
+    }
+    li, em{
+    font: weight 20px;
+    font-size:20px;
+    font-weight: bold;
+    }
+    .list li:not(:nth-child(n+4)){
+    color: blue;
+    }
+    .java{
+    background-color: pink;
+    }
+  
