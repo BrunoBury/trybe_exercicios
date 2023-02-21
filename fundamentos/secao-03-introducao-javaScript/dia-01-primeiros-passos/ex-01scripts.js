@@ -1,7 +1,7 @@
 let myName = "Bruno";
-let birtthCity = "Curitiba";
+let birthCity = "Curitiba";
 let birthYear = 1990;
 
 console.log(myName);
-console.log(birtthCity);
+console.log(birthCity);
 console.log(birthYear);
