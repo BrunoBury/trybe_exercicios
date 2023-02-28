@@ -24,8 +24,7 @@
 let aliquotaInss;
 let aliquotaIr;
 let salarioBruto = 2500;
-let salariobase = salarioBruto - aliquotaInss;
-
+let salarioBase = salarioBruto - aliquotaInss;
 
 if (salarioBruto <= 1556.94 ) {
     aliquotaInss = salarioBruto * 0.08;    
@@ -37,7 +36,15 @@ else if(salarioBruto >=2594.93 && salarioBruto <= 5189.82){
     aliquotaInss = salarioBruto * 0.11;
 }
 else{
-    aliquotaInss = 570.88
+    aliquotaInss = 570.88;
 }
-let salarioliquido = salariobase - aliquotaIr;
 
+let salarioliquido = salarioBase - aliquotaIr;
+
+if(salarioBase <= 1903.98){
+    aliquotaIr = 0;
+}
+else if (salarioBase >= 1903.99 && salarioBase <= 2826.65){
+    aliquotaIr = (salarioBase * 0.075) - 142.80
+}
+console.log(salarioliquido);
