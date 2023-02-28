@@ -23,7 +23,7 @@
 
 let aliquotaInss;
 let aliquotaIr;
-let salarioBruto = 3500;
+let salarioBruto = 5500;
 
 
 if (salarioBruto <= 1556.94 ) {
@@ -56,7 +56,5 @@ else if (salarioBase >= 3751.06 && salarioBase <= 4664.68){
 else  {
     aliquotaIr = (salarioBase * 0.275)-869.36;
 }
-
-
 let salarioLiquido = salarioBase - aliquotaIr;
 console.log(salarioLiquido);
