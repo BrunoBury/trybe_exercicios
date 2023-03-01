@@ -11,3 +11,7 @@ for (let index = 0; index < numbers.length; index += 1){
   sum += numbers[index];
 }
 console.log(sum);
+//Calcule e imprima a média aritmética dos valores contidos no array.
+let average = sum/numbers.length;
+console.log(average);
+//
