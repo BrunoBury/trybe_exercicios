@@ -53,8 +53,11 @@ function allStudents(object){
     for(let index = 0; index < keys.length ;index +=1){
         sum = object[keys[index]].numeroEstudantes + sum;         
     }
-    console.log(sum)
-    // lesson1.numeroEstudantes + lesson2.numeroEstudantes + lesson3.numeroEstudantes
+    // console.log(sum)
 }
-    allStudents(allLessons)
+    // allStudents(allLessons)
     
+    function valueNumber(object,position){
+      return Object.values(object)[position]
+        }
+    console.log(valueNumber(lesson1,0))
