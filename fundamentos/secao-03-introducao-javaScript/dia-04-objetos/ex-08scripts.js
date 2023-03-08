@@ -73,3 +73,4 @@ if(object && key && object[key] === value){
 console.log(verifyPair(lesson3, 'turno', 'noite'))
 
 
+
